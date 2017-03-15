@@ -2,6 +2,7 @@ import path from 'path'
 import webpack from 'webpack';
 
 export default {
+  devtools: 'eval-source-map',
   entry: path.join(__dirname, '/src/index.js'),
   output: {
     path: '/',
