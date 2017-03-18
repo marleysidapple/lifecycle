@@ -9,7 +9,7 @@ import Signup from './components/Signup';
 const app = document.getElementById('root');
 
 ReactDOM.render(
-	 <Router history = {hashHistory}>
+	 <Router history = {hashHistor}>
 	  <Route path="/" component={App}>
 	    <IndexRoute component={Home} />
 	    <Route path="signup" component={Signup} />
